@@ -14,17 +14,26 @@
         <activity
             android:name=".navdrawer"
             android:label="@string/title_activity_navdrawer"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".homeScreen">
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".homeScreen"
+            android:label="@string/home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".navdrawer" />
+        </activity>
+        <activity
+            android:name=".contact_us"
+            android:label="Contact Us"></activity>
+        <activity android:name=".cart_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".about_us">
-                    </activity>
     </application>
 
 </manifest>

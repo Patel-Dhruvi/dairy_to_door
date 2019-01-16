@@ -1,5 +1,7 @@
 package com.example.dhruvi.project;
 
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -81,7 +83,10 @@ public class navdrawer extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
+
             // Handle the camera action
+            Intent i= new Intent(navdrawer.this,homeScreen.class) ;
+            startActivity(i);
         } else if (id == R.id.nav_list_of_products) {
 
         } else if (id == R.id.nav_see_offer) {
@@ -96,8 +101,10 @@ public class navdrawer extends AppCompatActivity
         else if (id == R.id.nav_signout) {
 
         }
-        else if (id == R.id.nav_about_us) {
-
+        else if (id == R.id.nav_contact_us)
+        {
+            Intent i= new Intent(navdrawer.this,contact_us.class) ;
+            startActivity(i);
         }
         else if (id == R.id.nav_feedback) {
 

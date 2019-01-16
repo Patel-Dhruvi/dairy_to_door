@@ -4,39 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".about_us"
+    tools:context=".contact_us"
     android:orientation="vertical"
     android:background="@drawable/milk">
 
-    <android.support.v7.widget.Toolbar
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/colorPrimary">
+    <!--android.support.v7.widget.Toolbar-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="?attr/actionBarSize"-->
+    <!--android:background="@color/colorPrimary"-->
+        <!--style="@style/HeaderBar"-->
+        <!--android:elevatio<n="4dp">-->
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
 
-        <ImageView
-            android:id="@+id/imgArraowBack"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_arrow_back_black_24dp" />
+        <!--<ImageView-->
+            <!--android:id="@+id/imgArraowBack"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/ic_arrow_back_black_24dp" />-->
 
-        <TextView
-            android:id="@+id/tvContactUs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_toRightOf="@+id/imgArraowBack"
-            android:text="@string/contact_us"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/_15ssp"
-            android:textStyle="bold" />
+        <!--<TextView-->
+            <!--android:id="@+id/tvContactUs"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="@dimen/_10sdp"-->
+            <!--android:layout_toRightOf="@+id/imgArraowBack"-->
+            <!--android:text="@string/contact_us"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--android:textSize="@dimen/_15ssp"-->
+            <!--android:textStyle="bold" />-->
 
-    </RelativeLayout>
+    <!--</RelativeLayout>-->
 
-</android.support.v7.widget.Toolbar>
+<!--</android.support.v7.widget.Toolbar>-->
 
 <ScrollView
     android:layout_width="match_parent"
