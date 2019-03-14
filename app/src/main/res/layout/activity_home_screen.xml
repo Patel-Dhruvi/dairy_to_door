@@ -18,8 +18,9 @@
 
     <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_150sdp"
-        android:id="@+id/viewpager">
+        android:layout_height="@dimen/_180sdp"
+        android:id="@+id/viewpager"
+        android:background="@color/colorWhite">
     </android.support.v4.view.ViewPager>
 
 </android.support.v7.widget.CardView>

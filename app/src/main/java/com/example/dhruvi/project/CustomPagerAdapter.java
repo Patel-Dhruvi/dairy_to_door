@@ -38,11 +38,6 @@ class CustomPagerAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup collection, int position) {
 
 
-//        ModelObject modelObject = ModelObject.values()[position];
-//        LayoutInflater inflater = LayoutInflater.from(mContext);
-//        ViewGroup layout = (ViewGroup) inflater.inflate(modelObject.getLayoutResId(), collection, false);
-//        collection.addView(layout);
-//        return layout;
         View itemView = mLayoutInflater.inflate(R.layout.image_block,collection,false);
 //        assert itemView != null;
         ImageView imageView =(ImageView) itemView.findViewById(R.id.imageView);

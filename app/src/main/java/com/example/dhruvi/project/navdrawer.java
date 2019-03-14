@@ -3,8 +3,11 @@ package com.example.dhruvi.project;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,13 +18,24 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import android.widget.LinearLayout;
+import com.example.dhruvi.project.homeScreen.*;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class navdrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+//    LinearLayout drawer_layout;
+        homeScreen home = new homeScreen();
+    private static int currentPage = 0;
+    private static int NUM_PAGES = 9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navdrawer);
+//        drawer_layout=(LinearLayout)findViewById(R.id.drawer_layout);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -42,6 +56,7 @@ public class navdrawer extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
     }
 
     @Override
@@ -87,6 +102,15 @@ public class navdrawer extends AppCompatActivity
             // Handle the camera action
             Intent i= new Intent(navdrawer.this,homeScreen.class) ;
             startActivity(i);
+
+            Timer timer;
+            int IMAGES[] = {R.drawable.amul_cow_milk, R.drawable.amul_deshi, R.drawable.amul_diamond, R.drawable.amul_gold, R.drawable.amul_shakti, R.drawable.amul_taaza, R.drawable.amul_chaimaza, R.drawable.amul_slim_trim, R.drawable.amul_tea_special};
+            final long DELAY_MS = 500;//delay in milliseconds before task is to be executed
+            final long PERIOD_MS = 3000;
+            home.mViewpager=findViewById(R.id.viewpager);
+            home.mViewpager.setAdapter(new CustomPagerAdapter(navdrawer.this, IMAGES));
+            home.viewPager();
+
         } else if (id == R.id.nav_list_of_products) {
 
         } else if (id == R.id.nav_see_offer) {

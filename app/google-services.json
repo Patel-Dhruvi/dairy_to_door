@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "471694229953",
+    "firebase_url": "https://dairytodoor.firebaseio.com",
+    "project_id": "dairytodoor",
+    "storage_bucket": "dairytodoor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471694229953:android:8dc2f5eb9c4b0e61",
+        "android_client_info": {
+          "package_name": "com.example.dhruvi.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471694229953-729qnt5pi8oll1kvanrars8l3a6blq46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhruvi.project",
+            "certificate_hash": "ae14f263962a4f4b3d22e6e247fb120ca99bc459"
+          }
+        },
+        {
+          "client_id": "471694229953-13v357anfhjvbfpbeoja3vpl0rdm92q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABaQAZo28StAUwzffBUJV9O9-CVftI24I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471694229953-13v357anfhjvbfpbeoja3vpl0rdm92q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
