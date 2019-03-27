@@ -12,9 +12,10 @@
 
 
 
-<android.support.v7.widget.CardView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+<!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--</android.support.v7.widget.CardView>-->
 
     <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
@@ -23,7 +24,7 @@
         android:background="@color/colorWhite">
     </android.support.v4.view.ViewPager>
 
-</android.support.v7.widget.CardView>
+
     </LinearLayout>
     <!--<com.viewpagerindicator.CirclePageIndicator-->
         <!--android:layout_width="wrap_content"-->
@@ -50,17 +51,16 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@color/cardview_shadow_start_color">
+                android:orientation="vertical">
 
                 <HorizontalScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:background="@color/colorWhite">
+                    android:background="@drawable/homepagebg">
 
                     <LinearLayout
-                          android:layout_width="wrap_content"
+                          android:layout_width="match_parent"
                           android:layout_height="@dimen/_150sdp"
                           android:orientation="horizontal">
 
@@ -70,7 +70,7 @@
                               android:layout_marginLeft="@dimen/_30sdp"
                               android:orientation="vertical">
 
-                        <ImageView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="@dimen/_100sdp"
                             android:layout_height="@dimen/_100sdp"
                             android:layout_marginTop="@dimen/_10sdp"
@@ -95,7 +95,7 @@
                               android:layout_marginLeft="@dimen/_30sdp"
                               android:orientation="vertical">
 
-                              <ImageView
+                              <de.hdodenhof.circleimageview.CircleImageView
                                   android:layout_width="@dimen/_100sdp"
                                   android:layout_height="@dimen/_100sdp"
                                   android:layout_marginTop="@dimen/_10sdp"
@@ -132,7 +132,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:background="@color/colorWhite">
+                    android:background="@drawable/homepagebg">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -145,7 +145,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
@@ -170,7 +170,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:src="@drawable/amul_shakti"
@@ -195,10 +195,10 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
-                                android:src="@drawable/amul_shakti_200ml"
+                                android:src="@drawable/amul_shakti_200gm"
                                 android:layout_marginTop="@dimen/_10sdp"
                                  />
 
@@ -222,7 +222,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:background="@color/colorWhite">
+                    android:background="@drawable/homepagebg">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -235,7 +235,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
@@ -260,7 +260,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:src="@drawable/amul_taaza"
@@ -285,7 +285,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:background="@color/colorWhite">
+                    android:background="@drawable/homepagebg">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -298,7 +298,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
@@ -323,7 +323,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:src="@drawable/amul_moti_160ml"
@@ -348,7 +348,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:background="@color/colorWhite">
+                    android:background="@drawable/homepagebg">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -361,7 +361,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
@@ -386,7 +386,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:src="@drawable/amul_deshi"
@@ -411,7 +411,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:background="@color/colorWhite">
+                    android:background="@drawable/homepagebg">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -424,7 +424,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
@@ -449,7 +449,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:src="@drawable/amul_cow_milk"
@@ -474,7 +474,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:background="@color/colorWhite">
+                    android:background="@drawable/homepagebg">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -487,7 +487,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
@@ -512,7 +512,7 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:src="@drawable/amul_diamond"
@@ -537,7 +537,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:background="@color/colorWhite">
+                    android:background="@drawable/homepagebg">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -550,11 +550,11 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
-                                android:src="@drawable/amul_chaimaza" />
+                                android:src="@drawable/chaimaza" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -575,10 +575,10 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
-                                android:src="@drawable/amul_chaimaza"
+                                android:src="@drawable/chaimaza"
                                 android:layout_marginTop="@dimen/_10sdp"/>
 
                             <TextView
@@ -600,7 +600,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:background="@color/colorWhite">
+                android:background="@drawable/homepagebg">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -613,7 +613,7 @@
                     android:orientation="vertical"
                     android:layout_marginLeft="@dimen/_30sdp">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="@dimen/_100sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -638,7 +638,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_5sdp"
-                    android:background="@color/colorWhite">
+                    android:background="@drawable/homepagebg">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -651,11 +651,11 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
-                                android:src="@drawable/amul_slim_trim" />
+                                android:src="@drawable/amul_slim_n_trim_milk_500ml" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -676,11 +676,11 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
-                                android:src="@drawable/amul_slim_trim" />
+                                android:src="@drawable/amul_slim_n_trim_milk_500ml" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -701,11 +701,11 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
-                                android:src="@drawable/amul_slim_trim" />
+                                android:src="@drawable/amul_slim_n_trim_milk_500ml" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -726,11 +726,11 @@
                             android:orientation="vertical"
                             android:layout_marginLeft="@dimen/_30sdp">
 
-                            <ImageView
+                            <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="@dimen/_100sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
-                                android:src="@drawable/amul_slim_trim" />
+                                android:src="@drawable/amul_slim_n_trim_milk_500ml" />
 
                             <TextView
                                 android:layout_width="wrap_content"
