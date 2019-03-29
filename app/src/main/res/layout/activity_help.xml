@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".help">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shipping and Delivery"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/txtshopping"
+        android:layout_marginTop="@dimen/_20sdp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBlack">
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tracking Your Package"
+        android:id="@+id/txttracking"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBlack">
+        >
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payments"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/txtpayment"
+        android:layout_marginTop="@dimen/_20sdp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBlack">
+        >
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancellations"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/txtcancel"
+        android:layout_marginTop="@dimen/_20sdp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBlack">
+        >
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Easy Replacement"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/txtreplacement"
+        android:layout_marginTop="@dimen/_20sdp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBlack">
+        >
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return of Products By You"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/txtreturn"
+        android:layout_marginTop="@dimen/_20sdp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBlack">
+    </View>
+</LinearLayout>
